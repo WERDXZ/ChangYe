@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!-- set viewport to 1080X1920 -->
+	<meta name="viewport" content="width=1080" />
+	<title>赶紧想个名字啊啊啊啊</title>
+	<style>
+		:root{
+			--stdhigth: 100vh;
+			--stdwidth: var(--stdhigth) * 9 / 16;
+		}
+		.mybutton{
+					background: rgba(0, 0, 0, 0);
+					border: none;
+					width: calc( var(--stdwidth)/ 1080 * 490);
+					height: calc( var(--stdhigth) / 1920 * 105);
+					position: absolute;
+
+		}
+
+		#aboutMe{
+			margin-top: calc( var(--stdhigth) / 1920 * 500);
+			margin-left: calc( var(--stdwidth) / 1080 * 500);
+		}
+		#essays{
+			margin-top: calc( var(--stdhigth) / 1920 * 727);
+			margin-left: calc( var(--stdwidth) / 1080 * 335);
+		}
+		#other{
+			margin-top: calc( var(--stdhigth) / 1920 * 995);
+			margin-left: calc( var(--stdwidth) / 1080 * 480);
+		}
+	</style>
+</head>
+<div id="main" style="
+				background-image: url(./assets/aboutme.png);
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+				width: calc(100vh / 16 * 9);
+				height: 100vh;
+				margin: 0 auto;
+				
+			">
+</div>
+
+</html>
