@@ -1,11 +1,11 @@
+
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8" />
 	<!-- set viewport to 1080X1920 -->
 	<meta name="viewport" content="width=1080" />
-	<title>长夜启明屋</title>
+	<title>长夜启明屋-关于我</title>
 	<style>
 		:root{
 			--stdhigth: 100vh;
@@ -34,12 +34,8 @@
 		}
 	</style>
 </head>
-
-<!-- set background image to ./assets/background.png -->
-
-<body>
-	<div id="main" style="
-				background-image: url(./assets/background.png);
+<div id="main" style="
+				background-image: url(./assets/other.png);
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
 				width: calc(100vh / 16 * 9);
@@ -47,21 +43,6 @@
 				margin: 0 auto;
 				
 			">
-		<button id="aboutMe" class="mybutton" onclick="aboutMe()"></button>
-		<button id="essays" class="mybutton" onclick="monclick()"></button>
-		<button id="other" class="mybutton" onclick="other()"></button>
-	</div>
-</body>
-<script>
-	function monclick() {
-		console.log("onclick");
-	}
-	function aboutMe() {
-		window.location.href = "./aboutme.html";
-	}
-	function other() {
-		window.location.href = "./other.html";
-	}
-</script>
+</div>
 
 </html>
